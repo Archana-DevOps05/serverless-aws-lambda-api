@@ -62,7 +62,7 @@ Create a Python function that returns a JSON response:
       --path-part hello
 
  - Replace <api-id> with the ID of the API you created in the previous step.
- - <parent-id> is the ID of the root resource.
+ - parent-id is the ID of the root resource.
     
 3.3. Create a GET Method and Integration:
  
@@ -101,3 +101,6 @@ Create a Python function that returns a JSON response:
 Once deployed, you can test the API using:
 
     curl -X GET https://<API_ID>.execute-api.<REGION>.amazonaws.com/dev/lambda
+
+## 🔹 Outcome
+A fully functional serverless API that scales automatically, accessible via an HTTP endpoint.
