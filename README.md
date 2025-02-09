@@ -102,5 +102,10 @@ Once deployed, you can test the API using:
 
     curl -X GET https://<API_ID>.execute-api.<REGION>.amazonaws.com/dev/lambda
 
+![staticwebsite](image.png)
+![staticwebsite](image1.png)
+![staticwebsite](image1.1.png)
+![staticwebsite](image1.2.png)
+
 ## 🔹 Outcome
 A fully functional serverless API that scales automatically, accessible via an HTTP endpoint.
