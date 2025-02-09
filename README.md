@@ -62,7 +62,8 @@ Create a Python function that returns a JSON response:
       --path-part hello
 
  - Replace <api-id> with the ID of the API you created in the previous step.
- - <parent-id> is the ID of the root resource.   
+ - <parent-id> is the ID of the root resource.
+    
 3.3. Create a GET Method and Integration:
  
     aws apigateway put-method \
@@ -70,6 +71,7 @@ Create a Python function that returns a JSON response:
        --resource-id <resource-id> \
        --http-method GET \
        --authorization-type NONE
+       
 3.4. Link Lambda to the API Gateway Method:
 
     aws apigateway put-integration \
